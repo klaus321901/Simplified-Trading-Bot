@@ -1,4 +1,4 @@
-# Simplified Crypto Trading Bot
+# Simplified Trading Bot
 
 ## Overview
 
