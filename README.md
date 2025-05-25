@@ -29,7 +29,26 @@ This project is a simplified crypto trading bot designed for Binance Futures Tes
 Install dependencies with:
 
 ```bash
-pip install python-binance
+pip install python-binance 
+```
+## Usage
+Clone/download the repository.
 
+Run the bot script:
+```bash
+python basic_bot.py
+```
+When prompted, enter your Binance Futures Testnet API key and secret.
+
+Leave blank to use mock mode (no real API calls).
+
+Follow the CLI menu to place orders or view order history.
+
+## Notes
+The bot connects to Binance Futures Testnet API if valid API keys are provided.
+
+OCO orders are simulated as Binance Futures Testnet API does not natively support OCO orders.
+
+Logging details can be found in trading_bot.log.
 
 
